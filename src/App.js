@@ -1,7 +1,13 @@
+// constants
+import { plusIcon } from './constants';
+
+// components
+import CircleButton from './components/common/CircleButton';
+
 function App() {
   return (
-    <div className="App">
-      hello fb
+    <div>
+      <CircleButton iconName={plusIcon} />
     </div>
   );
 }
