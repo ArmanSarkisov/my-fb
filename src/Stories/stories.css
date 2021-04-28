@@ -1,0 +1,8 @@
+.stories{
+    background-color: aqua;
+    width: 630px;
+    height: 230px;
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 15px; */
+}
