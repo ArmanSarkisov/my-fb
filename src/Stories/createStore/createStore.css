@@ -1,0 +1,56 @@
+.createStore{
+    width: 120px;
+    height: 198px;
+    /* background-color: grey; */
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 25%), 0 2px 2px rgb(0 0 0 / 20%), 0 4px 4px rgb(0 0 0 / 15%), 0 8px 8px rgb(0 0 0 / 10%), 0 16px 16px rgb(0 0 0 / 5%);;
+}
+.createStore:hover{
+    opacity:1;
+    transition: 1s ease;
+}
+.userImage{
+    width: 120px;
+    height: 130px;
+    /* background-color: green; */
+    /* border-top-left-radius: 15px;
+    border-top-right-radius: 15px; */
+}
+.default_user{
+    width: 120px;
+    height: 130px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.add_story_icon{
+    display: flex;
+    justify-content: center;
+    margin-top: -14px;
+}
+.plus_icon{
+    width: 28px;
+    height: 28px;
+    background-color: #385898;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+}
+.add_story{
+width: 120px;
+height: 68px;
+/* background-color: yellow; */
+margin-top: -14px;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-decoration: none;
+}
+.asd{
+    text-decoration: none;
+}

@@ -1,7 +1,12 @@
+import React from 'react'
+import Stories from './Stories/Stories.jsx'
+
+
+
 function App() {
   return (
     <div className="App">
-      hello fb
+      <Stories/>
     </div>
   );
 }

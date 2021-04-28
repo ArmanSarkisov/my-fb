@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Stories from './Stories/Stories.jsx'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    {/* <Stories/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
