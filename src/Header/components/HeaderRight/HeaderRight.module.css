@@ -1,0 +1,12 @@
+
+.info{
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.infoAction{
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+    margin-left: 15px;
+}

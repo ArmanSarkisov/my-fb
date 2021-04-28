@@ -1,0 +1,22 @@
+
+.userInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 5px;
+
+}
+.userInfo:hover{
+    background-color: #F0F2F5;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.userImage{
+    width: 25px;
+    height: 25px;
+}
+.userInfoText{
+    font-size: 13px;
+    text-transform: capitalize;
+    margin-left: 5px;
+}
