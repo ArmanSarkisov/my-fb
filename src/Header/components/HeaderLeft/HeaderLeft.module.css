@@ -1,0 +1,33 @@
+.header_left{
+    width: 30%;
+}
+.header_logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.search{
+    margin-left:3px
+}
+.input{
+    display: flex;
+    position: relative;
+    z-index: 1;
+
+}
+.search_logo{
+    position: absolute;
+    z-index: 999;
+    padding: 8px;
+    display: block;
+}
+.input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #F0F2F5;
+    text-align: center;
+}
