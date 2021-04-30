@@ -1,8 +1,8 @@
 import React from 'react';
 import style from './Header.module.css';
-import HeaderRight from './components/HeaderRight/HeaderRight';
 import Home from './components/Home/Home';
-import HeaderPageList from './components/HeaderMiddle/HeaderPageList'
+import HeaderPageList from './components/HeaderPageList/HeaderPageList'
+import HeaderUserAction from './components/HeaderUserAction/HeaderUserAction';
 
 
 function Header() {
@@ -10,7 +10,7 @@ function Header() {
         <div className={style.header}>
             <Home/>
             <HeaderPageList/>
-            <HeaderRight/>
+            <HeaderUserAction/>
         </div>
     )
 }

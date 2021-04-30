@@ -1,9 +1,9 @@
 import React from 'react';
 import HeaderAction from './HeaderActions/HeaderAction';
 import User from './User/User';
-import style from './HeaderRight.module.css';
+import style from './HeaderUserAction.module.css';
 
-function HeaderRight() {
+function HeaderUserAction() {
     return (
         <div className={style.info}>
             <User src={"https://img.icons8.com/ios/26/000000/user-male-circle.png"} name={"Արփինե"}/>
@@ -16,4 +16,4 @@ function HeaderRight() {
         </div>
     )
 }
-export default HeaderRight
+export default HeaderUserAction

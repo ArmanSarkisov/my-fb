@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './headerPageList.module.css';
-import HeaderPageIcon from './HeaderMiddleIcon/HeaderPageIcon';
+import HeaderPageIcon from './HeaderPageIcon/HeaderPageIcon';
 
 function HeaderPageList() {
     return (
