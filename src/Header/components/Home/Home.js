@@ -1,8 +1,9 @@
 import React from 'react'
-import style from "./HeaderLeft.module.css";
-function HeaderLeft() {
+import style from './Home.module.css';
+
+function Home() {
     return (
-        <div className = {style.headerLeft}>
+        <div className={style.Home}>
             <div className={style.header_logo}>
                 <img src="https://img.icons8.com/color/48/000000/facebook-new.png"/>
                 <div className={style.search}>
@@ -14,4 +15,4 @@ function HeaderLeft() {
     )
 }
 
-export default HeaderLeft
+export default Home

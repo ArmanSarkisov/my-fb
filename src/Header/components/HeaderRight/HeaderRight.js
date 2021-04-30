@@ -1,7 +1,8 @@
-import React from 'react'
-import HeaderAction from './HeaderActions/HeaderAction'
-import User from './User/User'
-import style from "./HeaderRight.module.css"
+import React from 'react';
+import HeaderAction from './HeaderActions/HeaderAction';
+import User from './User/User';
+import style from './HeaderRight.module.css';
+
 function HeaderRight() {
     return (
         <div className={style.info}>

@@ -1,14 +1,11 @@
 
 .headerMiddleIcons{
     display: flex;
-    
+    cursor: pointer;
 }
 .headerMiddleIcons:hover{
     background-color: #F0F2F5;
-    cursor: pointer;
     border-radius: 10px;
-    
-
 }
 .haaderMiddleIcon{
     margin: 7px 30px;

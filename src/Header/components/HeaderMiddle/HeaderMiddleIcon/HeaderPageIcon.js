@@ -1,8 +1,7 @@
 import React from 'react';
-import style from "./HeaderMiddleIcon.module.css"
+import style from './HeaderPageIcon.module.css';
 
-function HeaderMiddleIcon({source}) {
-    console.log(source)
+function HeaderPageIcon({source}) {
     return (
         <div className={style.headerMiddleIcons}>
             <img src={source} className={style.haaderMiddleIcon}/>
@@ -10,4 +9,4 @@ function HeaderMiddleIcon({source}) {
     )
 }
 
-export default HeaderMiddleIcon
+export default HeaderPageIcon

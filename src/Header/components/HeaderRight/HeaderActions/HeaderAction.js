@@ -1,5 +1,6 @@
 import React from 'react'
-import style from "./HeaderAction.module.css"
+import style from './HeaderAction.module.css';
+
 function HeaderAction({src}) {
     return (
         <div className={style.action}>
